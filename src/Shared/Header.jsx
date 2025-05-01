@@ -16,24 +16,19 @@ const Header = () => {
             <nav className="navbar w-100">
               <ul className="nav-list d-flex w-100 justify-content-center gap-5 mb-0 p-0">
                 <li className="nav-item">
-                  <Link to="/companies" className="nav-link">
-                    Companies
+                  <Link to="/zepTalentHub" className="nav-link">
+                    Talenthub
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link to="/recruitment" className="nav-link">
-                    Recruitment Partner
+                  <Link to="/ZepRecruit" className="nav-link">
+                    Zep Recruit
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <a
-                    href="https://careers.zepul.com/"
-                    className="nav-link"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Job Seeker
-                  </a>
+                  <Link to="/prorecruitor" className="nav-link">
+                    Pro Recruiter
+                  </Link>
                 </li>
               </ul>
             </nav>
@@ -73,12 +68,10 @@ const Header = () => {
                     className="btn btn-secondary w-[8rem]"
                     type="button"
                     id="loginDropdown"
-                   
                     style={{ backgroundColor: "blue" }}
                   >
                     Try Zepul
                   </button>
-                 
                 </div>
               </div>
             </div>
