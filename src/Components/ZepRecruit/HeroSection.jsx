@@ -1,6 +1,6 @@
 export function HeroSection() {
   return (
-    <section className="container mx-auto px-4 py-16 md:py-24">
+    <section className="container mx-auto px-4 pt-12 pb-4 md:py-24">
       <div className="grid md:grid-cols-2 gap-12 items-start">
         {/* Left Section: Heading */}
         <div>
@@ -38,7 +38,7 @@ export function HeroSection() {
               fontFamily: '"DM Sans", sans-serif',
               fontWeight: 400,
               fontSize: "clamp(18px, 2vw, 20px)", // Responsive between 18px–20px
-              color: "#4D4D4D",
+              color: "#024bff",
               lineHeight: "1", // 100%
               letterSpacing: "-0.05em", // -5%
             }}

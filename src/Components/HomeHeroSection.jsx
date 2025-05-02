@@ -1,7 +1,9 @@
 import React, { Fragment } from "react";
 import "../styles/HeroSection.css";
+import { useNavigate } from "react-router";
 
 const HeroSection = () => {
+  const router = useNavigate();
   return (
     <Fragment>
       <div className="container-fluid">
@@ -28,17 +30,25 @@ const HeroSection = () => {
               </p>
             </div>
             <div className="btn-grp mt-5 d-flex gap-4">
-              <a className="sign-in-button hero" href="https://app.zepul.com/login">Try Zepul</a>
+              {/* <a className="sign-in-button hero" href="https://app.zepul.com/login">Try Zepul</a> */}
+              <button
+                className="btn btn-secondary w-[8rem]"
+                type="button"
+                id="loginDropdown"
+                style={{ backgroundColor: "blue", color: "white" }}
+                onClick={() =>
+                  (window.location.href = "https://app.zepul.com/login")
+                }
+              >
+                Try Zepul
+              </button>
+
               {/* <button className="sign-in-button hero">Try Zepul</button> */}
               {/* <button className="learn-more-button hero">Learn more</button> */}
             </div>
           </div>
           <div className="col-md-5 col-sm-12 col-xl-7 order-lg-2 order-sm-first ">
-            <img
-              src="/assets/1. The Future of recruitment is here.png"
-              alt=""
-              className="hero-img"
-            />
+            <img src="/assets/1.TFOR.png" alt="" className="hero-img" />
           </div>
         </div>
       </div>

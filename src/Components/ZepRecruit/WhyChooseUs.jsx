@@ -38,7 +38,7 @@ export function WhyChooseUs() {
             fontSize: "20px",
             lineHeight: "100%",
             letterSpacing: "-0.05em", // -5%
-            color: "#4D4D4D",
+            color: "#024bff",
           }}
           className="max-w-2xl mb-4"
         >

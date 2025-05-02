@@ -35,7 +35,7 @@ const TalentHubHeader = () => {
 
         <div className="max-w-md mt-4 md:mt-0">
           <p
-            className="text-gray-700"
+            className=" text-[#024bff]"
             style={{
               fontFamily: '"DM Sans", sans-serif',
               fontWeight: 400,

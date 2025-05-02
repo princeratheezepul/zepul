@@ -46,11 +46,60 @@ const RecruitmentPartner = () => {
         </div>
 
         {/* Stats section */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-4 mb-4 mt-48 md:mb-36">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-4 mb-4 mt-12 md:mb-36">
           {/* 80% Stat */}
           <div>
             <div
-              className="font-normal leading-[100%] md:text-[120px] text-[64px]"
+              className="font-normal leading-[100%] md:text-[100px] text-[64px]"
+              style={{
+                fontFamily: "DM Sans",
+                letterSpacing: "0%",
+              }}
+            >
+              3X
+            </div>
+
+            <div
+              style={{
+                fontFamily: "'DM Sans', sans-serif",
+                fontWeight: 200,
+                fontSize: "20px",
+                lineHeight: "100%",
+                letterSpacing: "-0.05em",
+              }}
+            >
+              Increase in Productivity
+            </div>
+          </div>
+
+          {/* 20% Stat */}
+          <div>
+            <div
+              className="font-normal leading-[100%] md:text-[100px] text-[64px]"
+              style={{
+                fontFamily: "DM Sans",
+                letterSpacing: "0%",
+              }}
+            >
+              40%
+            </div>
+            <div
+              style={{
+                fontFamily: "'DM Sans', sans-serif",
+                fontWeight: 200,
+                fontSize: "20px",
+                lineHeight: "100%",
+                letterSpacing: "-0.05em",
+              }}
+            >
+              Increase in Hiring Speed
+            </div>
+          </div>
+
+          {/* 50% Stat */}
+          <div>
+            <div
+              className="font-normal leading-[100%] md:text-[100px] text-[64px]"
               style={{
                 fontFamily: "DM Sans",
                 letterSpacing: "0%",
@@ -58,7 +107,6 @@ const RecruitmentPartner = () => {
             >
               80%
             </div>
-
             <div
               style={{
                 fontFamily: "'DM Sans', sans-serif",
@@ -68,55 +116,7 @@ const RecruitmentPartner = () => {
                 letterSpacing: "-0.05em",
               }}
             >
-              Businesses plan to increase their use of Marketplaces
-            </div>
-          </div>
-
-          {/* 20% Stat */}
-          <div>
-            <div
-              className="font-normal leading-[100%] md:text-[120px] text-[64px]"
-              style={{
-                fontFamily: "DM Sans",
-                letterSpacing: "0%",
-              }}
-            >
-              20%
-            </div>
-            <div
-              style={{
-                fontFamily: "'DM Sans', sans-serif",
-                fontWeight: 200,
-                fontSize: "20px",
-                lineHeight: "100%",
-                letterSpacing: "-0.05em",
-              }}
-            >
-              Increase in Brand Awareness
-            </div>
-          </div>
-
-          {/* 50% Stat */}
-          <div>
-            <div
-              className="font-normal leading-[100%] md:text-[120px] text-[64px]"
-              style={{
-                fontFamily: "DM Sans",
-                letterSpacing: "0%",
-              }}
-            >
-              50%
-            </div>
-            <div
-              style={{
-                fontFamily: "'DM Sans', sans-serif",
-                fontWeight: 200,
-                fontSize: "20px",
-                lineHeight: "100%",
-                letterSpacing: "-0.05em",
-              }}
-            >
-              Reduction in Administrative Tasks
+              Improved Quality Hire
             </div>
           </div>
         </div>

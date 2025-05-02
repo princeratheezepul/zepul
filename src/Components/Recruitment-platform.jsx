@@ -7,8 +7,10 @@ import {
   CheckCircle,
   Zap,
 } from "lucide-react";
-
+import { useNavigate } from "react-router-dom"; 
 export default function RecruitmentPlatform() {
+  const navigate = useNavigate();
+
   return (
     <div className="w-full mt-4 max-w-10xl mx-auto px-4 py-8 md:py-12">
       <div className="text-xs uppercase tracking-wider text-blue-600 font-semibold mb-2">
@@ -22,7 +24,7 @@ export default function RecruitmentPlatform() {
           </h1>
         </div>
         <div>
-          <p className="text-sm md:text-base text-[#4D4D4D] font-[400] text-[16px] mb-8 max-w-2xl hidden lg:flex">
+          <p className="text-sm md:text-base text-[#024bff] font-[400] text-[16px] mb-8 max-w-2xl hidden lg:flex ml-4">
             Unleash efficient hiring with our powerful suite of tools.
             Streamline your workflow, gain data-driven insights to attract top
             talent, and simplify the entire recruitment process.
@@ -51,9 +53,10 @@ export default function RecruitmentPlatform() {
             <div className="md:p-6 py-2 px-4 pt-0">
               <button
                 style={{ borderRadius: "6px" }}
-                className="bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-4 md:w-[7rem] w-full text-sm transition-colors duration-200 shadow-sm"
+                onClick={() => navigate("/zeprecruit")}
+                className="bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-4 md:w-[10rem] w-full text-sm transition-colors duration-200 shadow-sm"
               >
-                Sign In
+                Try Zepul
               </button>
             </div>
           </div>
@@ -88,9 +91,10 @@ export default function RecruitmentPlatform() {
             <div className="md:p-6 py-2 px-4 pt-0">
               <button
                 style={{ borderRadius: "6px" }}
-                className="bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-4 md:w-[7rem] w-full text-sm transition-colors duration-200 shadow-sm"
+                onClick={() => navigate("/prorecruitor")}
+                className="bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-4 md:w-[10rem] w-full text-sm transition-colors duration-200 shadow-sm"
               >
-                Sign In
+                Try Zepul
               </button>
             </div>
           </div>
@@ -124,9 +128,10 @@ export default function RecruitmentPlatform() {
             <div className="md:p-6 py-2 px-4 pt-0">
               <button
                 style={{ borderRadius: "6px" }}
-                className="bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-4 md:w-[7rem] w-full text-sm transition-colors duration-200 shadow-sm"
+                onClick={() => navigate("/zepTalentHub")}
+                className="bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-4 md:w-[10rem] w-full text-sm transition-colors duration-200 shadow-sm"
               >
-                Sign In
+                Try Zepul
               </button>
             </div>
           </div>
@@ -160,9 +165,10 @@ export default function RecruitmentPlatform() {
             <div className="md:p-6 py-2 px-4 pt-0">
               <button
                 style={{ borderRadius: "6px" }}
-                className="bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-4 md:w-[7rem] w-full text-sm transition-colors duration-200 shadow-sm"
+        
+                className="bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-4 md:w-[10rem] w-full text-sm transition-colors duration-200 shadow-sm"
               >
-                Sign In
+                Try Zepul
               </button>
             </div>
           </div>

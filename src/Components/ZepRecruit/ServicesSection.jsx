@@ -1,7 +1,9 @@
 export function ServicesSection() {
   return (
-    <section className="container mx-auto px-4 py-16 ">
+    <section className="container mx-auto px-4 py-16">
+      {/* Title & Description Section */}
       <div className="grid md:grid-cols-2 gap-12 mb-12">
+        {/* Left Column (Heading) */}
         <div>
           <h2
             className="mb-6"
@@ -16,15 +18,17 @@ export function ServicesSection() {
             Explore Our Services Tailored to Your Hiring Needs
           </h2>
         </div>
-        <div>
+
+        {/* Right Column (Vertically Centered Paragraphs) */}
+        <div className="flex flex-col justify-center h-full">
           <p
-            className="text-[#4D4D4D] mb-4"
+            className="mb-4 text-[#024bff]"
             style={{
               fontFamily: '"DM Sans", sans-serif',
               fontWeight: 400,
               fontSize: "16px",
               lineHeight: "100%",
-              letterSpacing: "-0.05em", // -5%
+              letterSpacing: "-0.05em",
             }}
           >
             Explore a wide range of full-time, Pay per Hour, Pay per Hire
@@ -38,7 +42,7 @@ export function ServicesSection() {
               fontSize: "16px",
               lineHeight: "100%",
               letterSpacing: "-0.05em",
-              color: "#4d4d4d", // matches your --sub-title variable
+              color: "#024bff",
               marginBottom: "1rem",
             }}
           >
@@ -49,14 +53,16 @@ export function ServicesSection() {
         </div>
       </div>
 
+      {/* Service Cards Section */}
       <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+        {/* FullTime Card */}
         <div className="border border-gray-200 rounded-3xl p-6 flex flex-col">
           <h3
             className="mb-4"
             style={{
               fontFamily: '"DM Sans", sans-serif',
               fontWeight: 500,
-              fontSize: "28px", // base/mobile
+              fontSize: "28px",
               lineHeight: "100%",
               letterSpacing: "0",
             }}
@@ -75,7 +81,7 @@ export function ServicesSection() {
           <img
             src="assets/zeprecruit/zp5.png"
             alt=""
-            className="  mx-auto my-auto w-[25rem]"
+            className="mx-auto my-auto w-[25rem]"
           />
           <p
             style={{
@@ -92,14 +98,16 @@ export function ServicesSection() {
           </p>
         </div>
 
+        {/* Contractual & Gig Workforce Cards */}
         <div className="flex flex-col gap-8">
+          {/* Contractual */}
           <div className="border border-gray-200 rounded-3xl p-6 flex flex-col h-full">
             <h3
               className="mb-4"
               style={{
                 fontFamily: '"DM Sans", sans-serif',
                 fontWeight: 500,
-                fontSize: "28px", // base/mobile
+                fontSize: "28px",
                 lineHeight: "100%",
                 letterSpacing: "0",
               }}
@@ -136,13 +144,15 @@ export function ServicesSection() {
               recurring.
             </p>
           </div>
+
+          {/* Gig Workforce */}
           <div className="border border-gray-200 rounded-3xl p-6 flex flex-col h-full">
             <h3
               className="mb-4"
               style={{
                 fontFamily: '"DM Sans", sans-serif',
                 fontWeight: 500,
-                fontSize: "28px", // base/mobile
+                fontSize: "28px",
                 lineHeight: "100%",
                 letterSpacing: "0",
               }}
@@ -180,13 +190,14 @@ export function ServicesSection() {
           </div>
         </div>
 
+        {/* Projects Card */}
         <div className="border border-gray-200 rounded-3xl p-6 flex flex-col">
           <h3
             className="mb-4"
             style={{
               fontFamily: '"DM Sans", sans-serif',
               fontWeight: 500,
-              fontSize: "28px", // base/mobile
+              fontSize: "28px",
               lineHeight: "100%",
               letterSpacing: "0",
             }}
@@ -204,7 +215,7 @@ export function ServicesSection() {
           <div className="flex items-center justify-center mb-4 my-auto">
             <img
               src="assets/zeprecruit/zp9.png"
-              className="w-[20rem] lg:w-[25rem] "
+              className="w-[20rem] lg:w-[25rem]"
               alt=""
             />
           </div>
