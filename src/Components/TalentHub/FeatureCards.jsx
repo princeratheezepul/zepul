@@ -9,7 +9,7 @@ const FeatureCard = ({ title, description, src }) => {
             style={{
               fontFamily: '"DM Sans", sans-serif',
               fontWeight: 400,
-              fontSize: "44px",
+              fontSize: "38px",
               lineHeight: "100%",
               letterSpacing: "0%",
             }}

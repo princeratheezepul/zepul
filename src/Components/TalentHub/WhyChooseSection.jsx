@@ -1,12 +1,14 @@
 import React from "react";
-
 const ReasonCard = ({ title, description, src }) => {
   return (
-    <div className="border border-gray-200 rounded-3xl overflow-hidden">
-      <div className=" py-8 ">
-        <img src={src} alt="" />
+    <div className="border border-gray-200 rounded-3xl overflow-hidden flex flex-col h-full mt-8">
+      {/* Image wrapper with fixed height */}
+      <div className="flex items-center justify-center min-h-[220px] px-6 pt-8">
+        <img src={src} alt={title} className="object-contain max-h-[180px]" />
       </div>
-      <div className="p-6">
+
+      {/* Text content, uniformly aligned */}
+      <div className="p-6 flex flex-col justify-start flex-grow">
         <h3
           className="mb-2"
           style={{
@@ -27,7 +29,7 @@ const ReasonCard = ({ title, description, src }) => {
             fontWeight: 400,
             fontSize: "14px",
             lineHeight: "100%",
-            letterSpacing: "-0.05em", // -5%
+            letterSpacing: "-0.05em",
           }}
         >
           {description}
@@ -36,6 +38,8 @@ const ReasonCard = ({ title, description, src }) => {
     </div>
   );
 };
+
+
 
 const WhyChooseSection = () => {
   const reasons = [
