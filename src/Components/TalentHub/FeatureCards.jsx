@@ -64,7 +64,8 @@ const FeatureCards = () => {
     },
     {
       title: "Verified Candidate Resume",
-      description: "Access complete resumes for an in-depth candidate review",
+      description:
+        "Access comprehensive scorecard for an in-depth candidate review",
       img: "assets/cpe4.png",
     },
   ];

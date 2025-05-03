@@ -32,7 +32,7 @@ const TalentHubHeader = () => {
             </span>
           </h1>
         </div>
-
+{/* 
         <div className="max-w-md mt-4 md:mt-0">
           <p
             className=" text-[#024bff]"
@@ -48,7 +48,7 @@ const TalentHubHeader = () => {
             pre-vetted talent data at competitive prices and the lowest
             turnaround time to Pro Recruiters
           </p>
-        </div>
+        </div> */}
       </div>
     </header>
   );
