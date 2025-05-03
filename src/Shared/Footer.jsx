@@ -20,14 +20,17 @@ const Footer = () => {
             Zepul™ is committed to removing inefficiencies from the recruitment
             process while maximizing the value of human expertise.
           </p>
-          <div className="flex flex-row justify-around my-4">
+          <div className="flex flex-row gap-8 my-4 ">
             {" "}
-            <img src="/assets/CN.jpeg" alt="" className="w-[6rem]" />
             <img src="/assets/SI.jpeg" alt="" className="w-[6rem]" />
+            <img src="/assets/CN.jpeg" alt="" className="w-[6rem]" />
           </div>
-          <p className="opacity-50 leading-none">
-            MSME UDYAAN REGISTERED COMPANY - UDYAM-TS-02-0210277
-          </p>
+          <div className="overflow-x-auto max-w-full">
+            <p className="opacity-50 whitespace-nowrap m-0 leading-snug">
+              MSME UDYAAN REGISTERED COMPANY - UDYAM-TS-02-0210277
+            </p>
+          </div>
+
           <p className="opacity-50 leading-none">GSTIN - 36AACCZ0062E1ZM</p>
         </div>
 

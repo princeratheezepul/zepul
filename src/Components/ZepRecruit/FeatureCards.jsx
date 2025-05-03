@@ -9,19 +9,19 @@ export function FeatureCards() {
     {
       title: "ZepDB - AI based Sourcing",
       description:
-        "Your One-Stop Shop from Requisition to Onboarding: Simplify Your Hiring Process Today.",
+        "An AI-powered database that instantly sources top talent from a vast pool of profiles, ensuring the lowest TAT.",
       img: "assets/zeprecruit/zp2.png",
     },
     {
       title: "Multi-layer Screening (AI + Human)",
       description:
-        "Your One-Stop Shop from Requisition to Onboarding: Simplify Your Hiring Process Today.",
+        "AI-driven screening blended with human evaluation to ensure unbiased, precise talent scoring and enhanced quality.",
       img: "assets/zeprecruit/zp3.png",
     },
     {
       title: "Comprehensive Report Card",
       description:
-        "Your One-Stop Shop from Requisition to Onboarding: Simplify Your Hiring Process Today.",
+        "A comprehensive report card combining AI and human evaluations, the candidate's resume, and value-adds like background verification (BGV) and functional assessment scores.",
       img: "assets/zeprecruit/zp4.png",
     },
   ];
