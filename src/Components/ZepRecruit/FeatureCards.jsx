@@ -43,12 +43,16 @@ export function FeatureCards() {
             </div>
 
             <h3
-              className="min-h-[72px] mb-4"
+              className="mb-4"
               style={{
                 fontFamily: '"DM Sans", sans-serif',
                 fontWeight: 500,
                 fontSize: "28px",
                 lineHeight: "100%",
+                minHeight: "72px", // minimum height to maintain consistency
+                height: "72px", // fixed height for uniformity
+                display: "flex",
+                alignItems: "center",
               }}
             >
               {feature.title}
