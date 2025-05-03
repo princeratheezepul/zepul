@@ -34,37 +34,42 @@ export function FeatureCards() {
             key={index}
             className="border border-gray-200 rounded-3xl p-6 h-full flex flex-col"
           >
-            <div className="mb-6">
-              <img
-                src={feature.img}
-                alt=""
-                className="w-full h-[180px] object-contain"
-              />
+            {/* Unified space for image and title */}
+            <div style={{ minHeight: "280px" }} className="flex flex-col">
+              <div className="mb-4">
+                <img
+                  src={feature.img}
+                  alt=""
+                  className="w-full h-[180px] object-contain"
+                />
+              </div>
+
+              <h3
+                style={{
+                  fontFamily: '"DM Sans", sans-serif',
+                  fontWeight: 500,
+                  fontSize: "28px",
+                  lineHeight: "100%",
+                  height: "72px",
+                  display: "flex",
+                  // alignItems: "center",
+                }}
+              >
+                {feature.title}
+              </h3>
             </div>
 
-            <h3
-              className="mb-4"
-              style={{
-                fontFamily: '"DM Sans", sans-serif',
-                fontWeight: 500,
-                fontSize: "28px",
-                lineHeight: "100%",
-                minHeight: "72px", // minimum height to maintain consistency
-                height: "72px", // fixed height for uniformity
-                display: "flex",
-                alignItems: "center",
-              }}
-            >
-              {feature.title}
-            </h3>
-
+            {/* Description, aligned uniformly */}
             <p
-              className="text-gray-600 flex-grow"
+              className="text-gray-600 mt-4"
               style={{
                 fontFamily: '"DM Sans", sans-serif',
                 fontWeight: 400,
                 fontSize: "16px",
-                lineHeight: "100%",
+                lineHeight: "140%",
+                minHeight: "120px", // Reserve space for longest description
+                display: "flex",
+                alignItems: "flex-start",
               }}
             >
               {feature.description}

@@ -26,7 +26,7 @@ const Footer = () => {
             <img src="/assets/CN.jpeg" alt="" className="w-[6rem]" />
           </div>
           <div className="overflow-x-auto max-w-full">
-            <p className="opacity-50 whitespace-nowrap m-0 leading-snug">
+            <p className="opacity-50 m-0 leading-snug w-full lg:max-w-none whitespace-normal lg:whitespace-nowrap">
               MSME UDYAAN REGISTERED COMPANY - UDYAM-TS-02-0210277
             </p>
           </div>
