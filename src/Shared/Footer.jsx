@@ -22,6 +22,19 @@ const Footer = () => {
           </p>
           <div className="w-full flex  my-4">
             <div className="flex flex-row sm:gap-6  text-sm  leading-normal  ">
+              {/* DPIIT */}
+              <div className="flex flex-col items-start sm:w-[11rem] w-[8rem]">
+                <img
+                  src="/assets/DPIIT.png"
+                  alt="DPIIT Logo"
+                  className="sm:w-[8rem] w-[5rem] h-auto object-contain"
+                />
+                <span className="mt-1 text-[0.6rem] md:text-[0.8rem] text-[#6E6E6E]">
+                  Recognized Startup
+                  <br />
+                  Certificate # DIPP123320
+                </span>
+              </div>
               {/* MSME */}
               <div className="flex flex-col items-start sm:w-[12rem] w-[10rem]">
                 <img
@@ -34,19 +47,7 @@ const Footer = () => {
                   <br /># UDYAM-TS-02-0210277
                 </span>
               </div>
-              {/* DPIIT */}
-              <div className="flex flex-col items-start sm:w-[12rem] w-[8rem]">
-                <img
-                  src="/assets/DPIIT.png"
-                  alt="DPIIT Logo"
-                  className="sm:w-[8rem] w-[5rem] h-auto object-contain"
-                />
-                <span className="mt-1 text-[0.6rem] md:text-[0.8rem] text-[#6E6E6E]">
-                  Recognized Startup
-                  <br />
-                  Certificate # DIPP123320
-                </span>
-              </div>
+              
             </div>
           </div>
         </div>
