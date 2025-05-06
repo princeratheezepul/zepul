@@ -171,22 +171,62 @@ const Header = () => {
                 </button>
                 <ul className=" dropdown-menu ">
                   <li className="nav-item">
-                    <Link to="/ZepRecruit" className="nav-link dropdown-item">
+                    <Link to="/ZepRecruit" className="nav-link dropdown-item" style={{
+                        color: "#024bff",
+                        fontFamily: '"DM Sans", sans-serif',
+                        fontWeight: 500,
+                        fontSize: "16px",
+                        lineHeight: 1,
+                        letterSpacing: "-0.05em",
+                        margin: 0,
+                        padding: 0,
+                        display: "block",
+                      }}>
                       Zep Recruit
                     </Link>
                   </li>
                   <li className="nav-item">
-                    <Link to="/zepTalentHub" className="nav-link dropdown-item">
+                    <Link to="/zepTalentHub" className="nav-link dropdown-item" style={{
+                        color: "#024bff",
+                        fontFamily: '"DM Sans", sans-serif',
+                        fontWeight: 500,
+                        fontSize: "16px",
+                        lineHeight: 1,
+                        letterSpacing: "-0.05em",
+                        margin: 0,
+                        padding: 0,
+                        display: "block",
+                      }}>
                       Zep Talenthub
                     </Link>
                   </li>
                   <li className="nav-item">
-                    <Link to="/prorecruitor" className="nav-link dropdown-item">
+                    <Link to="/prorecruitor" className="nav-link dropdown-item" style={{
+                        color: "#024bff",
+                        fontFamily: '"DM Sans", sans-serif',
+                        fontWeight: 500,
+                        fontSize: "16px",
+                        lineHeight: 1,
+                        letterSpacing: "-0.05em",
+                        margin: 0,
+                        padding: 0,
+                        display: "block",
+                      }}>
                       Zep Pro Recruiter
                     </Link>
                   </li>
                   <li className="nav-item">
-                    <Link to="https://careers.zepul.com" className="nav-link dropdown-item">
+                    <Link to="https://careers.zepul.com" className="nav-link dropdown-item" style={{
+                        color: "#024bff",
+                        fontFamily: '"DM Sans", sans-serif',
+                        fontWeight: 500,
+                        fontSize: "16px",
+                        lineHeight: 1,
+                        letterSpacing: "-0.05em",
+                        margin: 0,
+                        padding: 0,
+                        display: "block",
+                      }}>
                       Zep Jobs
                     </Link>
                   </li>
