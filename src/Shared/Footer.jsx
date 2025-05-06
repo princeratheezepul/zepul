@@ -21,7 +21,7 @@ const Footer = () => {
             process while maximizing the value of human expertise.
           </p>
           <div className="w-full  flex md:gap-12 gap-8  my-4">
-            <div className="flex flex-col gap-4">
+            <div className="flex flex-col sm:gap-4 gap-8 sm:pt-0 pt-3">
               <div>
                 <img
                   src="/assets/DPIIT.png"
@@ -31,7 +31,7 @@ const Footer = () => {
               </div>
               <div>
                 <h1
-                  className="font-extrabold tracking-wide uppercase text-[0.25rem] sm:text-[1.2rem] leading-tight"
+                  className="font-extrabold tracking-wide uppercase text-[0.25rem] sm:text-[1.2rem] leading-tight sm:pt-0 pt-2 "
                   style={{
                     fontFamily: '"DM Sans", sans-serif',
                     fontWeight: 900,
@@ -44,7 +44,7 @@ const Footer = () => {
                 </h1>
               </div>
             </div>
-            <div className="flex flex-col gap-8">
+            <div className="flex flex-col gap-8 sm:pt-4">
               <div>
                 <span
                   className="mt-1 text-[#6E6E6E] leading-snug block"
@@ -60,7 +60,7 @@ const Footer = () => {
               </div>
               <div>
                 <span
-                  className="mt-1 text-[#6E6E6E] leading-snug block"
+                  className="mt-1 text-[#6E6E6E] leading-snug block "
                   style={{
                     fontFamily: '"DM Sans", sans-serif',
                     fontSize: "0.75rem", // ~text-sm
