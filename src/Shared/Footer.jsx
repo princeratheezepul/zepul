@@ -16,40 +16,119 @@ const Footer = () => {
               ™
             </span>
           </div>
-          <p className="opacity-50 leading-none">
+          <p className="opacity-50 ">
             Zepul™ is committed to removing inefficiencies from the recruitment
             process while maximizing the value of human expertise.
           </p>
-          <div className="w-full flex  my-4">
-            <div className="flex flex-row sm:gap-6  text-sm  leading-normal  ">
-              {/* DPIIT */}
-              <div className="flex flex-col items-start sm:w-[11rem] w-[8rem]">
+          <div className="w-full  flex md:gap-12 gap-8  my-4">
+            <div className="flex flex-col gap-4">
+              <div>
                 <img
                   src="/assets/DPIIT.png"
                   alt="DPIIT Logo"
                   className="sm:w-[8rem] w-[5rem] h-auto object-contain"
                 />
-                <span className="mt-1 text-[0.6rem] md:text-[0.8rem] text-[#6E6E6E]">
+              </div>
+              <div>
+                <h1
+                  className="font-extrabold tracking-wide uppercase text-[0.25rem] sm:text-[1.2rem] leading-tight"
+                  style={{
+                    fontFamily: '"DM Sans", sans-serif',
+                    fontWeight: 900,
+                    fontSize: "18px",
+                    lineHeight: "100%",
+                    letterSpacing: "0%",
+                  }}
+                >
+                  MSME / UDYAM
+                </h1>
+              </div>
+            </div>
+            <div className="flex flex-col gap-8">
+              <div>
+                <span
+                  className="mt-1 text-[#6E6E6E] leading-snug block"
+                  style={{
+                    fontFamily: '"DM Sans", sans-serif',
+                    fontSize: "0.75rem", // ~text-sm
+                  }}
+                >
                   Recognized Startup
                   <br />
                   Certificate # DIPP123320
                 </span>
               </div>
-              {/* MSME */}
-              <div className="flex flex-col items-start sm:w-[12rem] w-[10rem]">
-                <img
-                  src="/assets/MSME.png"
-                  alt="MSME Logo"
-                  className="sm:w-[8rem] w-[5rem] h-auto object-contain"
-                />
-                <span className="mt-1 text-[0.6rem] md:text-[0.8rem] text-[#6E6E6E]">
+              <div>
+                <span
+                  className="mt-1 text-[#6E6E6E] leading-snug block"
+                  style={{
+                    fontFamily: '"DM Sans", sans-serif',
+                    fontSize: "0.75rem", // ~text-sm
+                  }}
+                >
                   Recognized Company Certificate
                   <br /># UDYAM-TS-02-0210277
                 </span>
               </div>
-              
             </div>
           </div>
+          {/* <div className="w-full flex my-4">
+            <div className="flex flex-col sm:gap-6 text-sm leading-normal w-full">
+              DPIIT
+              <div className="flex flex-col sm:flex-row items-start gap-2 sm:gap-4 w-full">
+                <div className="flex-shrink-0 sm:w-auto w-full flex justify-start sm:justify-start">
+                  <img
+                    src="/assets/DPIIT.png"
+                    alt="DPIIT Logo"
+                    className="sm:w-[8rem] w-[5rem] h-auto object-contain"
+                  />
+                </div>
+                <div className="w-full">
+                  <span
+                    className="mt-1 text-[#6E6E6E] leading-snug block"
+                    style={{
+                      fontFamily: '"DM Sans", sans-serif',
+                      fontSize: "0.75rem", // ~text-sm
+                    }}
+                  >
+                    Recognized Startup
+                    <br />
+                    Certificate # DIPP123320
+                  </span>
+                </div>
+              </div>
+
+              MSME / UDYAM
+              <div className="flex flex-col sm:flex-row items-start gap-2 sm:gap-4 w-full mt-4 sm:mt-0">
+                <div className="flex-shrink-0 sm:w-auto w-full my-auto">
+                  <h1
+                    className="font-extrabold tracking-wide uppercase text-[0.25rem] sm:text-[1.2rem] leading-tight"
+                    style={{
+                      fontFamily: '"DM Sans", sans-serif',
+                      fontWeight: 900,
+                      fontSize: "18px",
+                      lineHeight: "100%",
+                      letterSpacing: "0%",
+                    }}
+                  >
+                    MSME / UDYAM
+                  </h1>
+                </div>
+                <div className="w-full">
+                  <span
+                    className="mt-1 text-[#6E6E6E] leading-snug block"
+                    style={{
+                      fontFamily: '"DM Sans", sans-serif',
+                      fontSize: "0.75rem", // ~text-sm
+                    }}
+                  >
+                    Recognized Company Certificate
+                    <br /># UDYAM-TS-02-0210277
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div> */}
         </div>
 
         <div className="flex flex-row gap-10 md:w-1/2 md:mx-auto lg:mx-0 ">
