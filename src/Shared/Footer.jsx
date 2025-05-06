@@ -60,7 +60,7 @@ const Footer = () => {
               </div>
               <div>
                 <span
-                  className="mt-1 text-[#6E6E6E] leading-snug block sm:pt-0 pt-4 "
+                  className="mt-1 text-[#6E6E6E] leading-snug block sm:pt-0 pt-2 "
                   style={{
                     fontFamily: '"DM Sans", sans-serif',
                     fontSize: "0.75rem", // ~text-sm
