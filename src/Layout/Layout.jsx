@@ -7,7 +7,7 @@ import Footer from "../Shared/Footer";
 const Layout = () => {
   return (
     <Fragment>
-      <div className="wrapper d-flex flex-column justify-content-between h-full" >
+      <div className="wrapper d-flex flex-column justify-content-between h-full overflow-hidden" >
       {/* <TopScroller /> */}
       <Header />
       <Router />

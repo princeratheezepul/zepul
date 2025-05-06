@@ -21,30 +21,30 @@ const Footer = () => {
             process while maximizing the value of human expertise.
           </p>
           <div className="w-full flex  my-4">
-            <div className="flex flex-row sm:gap-6  text-sm opacity-50 leading-normal  ">
+            <div className="flex flex-row sm:gap-6  text-sm  leading-normal  ">
               {/* DPIIT */}
-              <div className="flex flex-col items-start w-[12rem]">
+              <div className="flex flex-col items-start sm:w-[12rem] w-[8rem]">
                 <img
-                  src="/assets/CN2.png"
+                  src="/assets/DPIIT.png"
                   alt="DPIIT Logo"
                   className="sm:w-[8rem] w-[5rem] h-auto object-contain"
                 />
-                <span className="mt-1 text-[0.6rem] md:text-[0.8rem]">
+                <span className="mt-1 text-[0.6rem] md:text-[0.8rem] text-[#6E6E6E]">
                   Recognized Startup
                   <br />
-                  Certificated # DIPP123320
+                  Certificate # DIPP123320
                 </span>
               </div>
 
               {/* MSME */}
-              <div className="flex flex-col items-start w-[12rem]">
+              <div className="flex flex-col items-start sm:w-[12rem] w-[10rem]">
                 <img
-                  src="/assets/S12.png"
+                  src="/assets/MSME.png"
                   alt="MSME Logo"
                   className="sm:w-[8rem] w-[5rem] h-auto object-contain"
                 />
-                <span className="mt-1 text-[0.6rem] md:text-[0.8rem]">
-                  Recognized Company Cert.
+                <span className="mt-1 text-[0.6rem] md:text-[0.8rem] text-[#6E6E6E]">
+                  Recognized Company Certificate
                   <br /># UDYAM-TS-02-0210277
                 </span>
               </div>
