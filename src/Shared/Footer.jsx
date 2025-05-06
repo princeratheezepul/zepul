@@ -20,7 +20,58 @@ const Footer = () => {
             Zepul™ is committed to removing inefficiencies from the recruitment
             process while maximizing the value of human expertise.
           </p>
-          <div className="w-full  flex md:gap-12 gap-8  my-4">
+
+          <div className="flex flex-col gap-2">
+            <div className="flex sm:gap-[3.1rem] gap-[7.5rem]">
+              <img
+                src="/assets/DPIIT.png"
+                alt="DPIIT Logo"
+                className="sm:w-[8rem] w-[5rem] h-auto object-contain"
+              />
+              <div className="sm:flex absolute left-[40%] ">
+                <span
+                  className=" text-[#6E6E6E] leading-snug block"
+                  style={{
+                    fontFamily: '"DM Sans", sans-serif',
+                    fontSize: "0.75rem", // ~text-sm
+                  }}
+                >
+                  Recognized Startup
+                  <br />
+                  Certificate # DIPP123320
+                </span>
+              </div>
+            </div>
+            <div className="flex sm:gap-[2.4rem] gap-[0.4rem]">
+              <div className="sm:w-[15rem] w-[10rem]">
+                <h1
+                  className="font-extrabold tracking-wide uppercase text-[0.25rem] sm:text-[1.2rem] leading-tight sm:pt-0 pt-2 "
+                  style={{
+                    fontFamily: '"DM Sans", sans-serif',
+                    fontWeight: 900,
+                    fontSize: "18px",
+                    lineHeight: "100%",
+                    letterSpacing: "0%",
+                  }}
+                >
+                  MSME / UDYAM
+                </h1>
+              </div>
+              <div className="sm:flex absolute left-[40%]">
+                <span
+                  className=" text-[#6E6E6E] leading-snug block sm:pt-0 pt-2 "
+                  style={{
+                    fontFamily: '"DM Sans", sans-serif',
+                    fontSize: "0.75rem", // ~text-sm
+                  }}
+                >
+                  Recognized Company Certificate
+                  <br /># UDYAM-TS-02-0210277
+                </span>
+              </div>
+            </div>
+          </div>
+          {/* <div className="w-full  flex md:gap-12 gap-8  my-4">
             <div className="flex flex-col sm:gap-4 gap-8 sm:pt-0 pt-3">
               <div>
                 <img
@@ -71,7 +122,7 @@ const Footer = () => {
                 </span>
               </div>
             </div>
-          </div>
+          </div> */}
           {/* <div className="w-full flex my-4">
             <div className="flex flex-col sm:gap-6 text-sm leading-normal w-full">
               DPIIT
@@ -139,7 +190,18 @@ const Footer = () => {
                 <Link
                   to="/terms"
                   className="hover:underline text-white"
-                  style={{ textDecoration: "none" }}
+                  style={{
+                    color: "#024bff",
+                    fontFamily: '"DM Sans", sans-serif',
+                    fontWeight: 500,
+                    fontSize: "16px",
+                    lineHeight: 1,
+                    letterSpacing: "-0.05em",
+                    margin: 0,
+                    padding: 0,
+                    display: "block",
+                    textDecoration: "none", // <-- this removes underline
+                  }}
                 >
                   Terms
                 </Link>
@@ -148,7 +210,18 @@ const Footer = () => {
                 <Link
                   to="/privacy"
                   className="hover:underline text-white"
-                  style={{ textDecoration: "none" }}
+                  style={{
+                    color: "#024bff",
+                    fontFamily: '"DM Sans", sans-serif',
+                    fontWeight: 500,
+                    fontSize: "16px",
+                    lineHeight: 1,
+                    letterSpacing: "-0.05em",
+                    margin: 0,
+                    padding: 0,
+                    display: "block",
+                    textDecoration: "none", // <-- this removes underline
+                  }}
                 >
                   Privacy
                 </Link>
@@ -157,7 +230,18 @@ const Footer = () => {
                 <Link
                   to="/support"
                   className="hover:underline text-white"
-                  style={{ textDecoration: "none" }}
+                  style={{
+                    color: "#024bff",
+                    fontFamily: '"DM Sans", sans-serif',
+                    fontWeight: 500,
+                    fontSize: "16px",
+                    lineHeight: 1,
+                    letterSpacing: "-0.05em",
+                    margin: 0,
+                    padding: 0,
+                    display: "block",
+                    textDecoration: "none", // <-- this removes underline
+                  }}
                 >
                   Support
                 </Link>
@@ -172,36 +256,80 @@ const Footer = () => {
                 <Link
                   to="/"
                   className="hover:underline text-white"
-                  style={{ textDecoration: "none" }}
+                  style={{
+                    color: "#024bff",
+                    fontFamily: '"DM Sans", sans-serif',
+                    fontWeight: 500,
+                    fontSize: "16px",
+                    lineHeight: 1,
+                    letterSpacing: "-0.05em",
+                    margin: 0,
+                    padding: 0,
+                    display: "block",
+                    textDecoration: "none", // <-- this removes underline
+                  }}
                 >
                   Home
                 </Link>
               </li>
               <li>
                 <Link
-                  to="/companies"
+                  to="/ZepRecruit"
                   className="hover:underline text-white"
-                  style={{ textDecoration: "none" }}
+                  style={{
+                    color: "#024bff",
+                    fontFamily: '"DM Sans", sans-serif',
+                    fontWeight: 500,
+                    fontSize: "16px",
+                    lineHeight: 1,
+                    letterSpacing: "-0.05em",
+                    margin: 0,
+                    padding: 0,
+                    display: "block",
+                    textDecoration: "none", // <-- this removes underline
+                  }}
                 >
-                  Companies
+                  Zep Recruit
                 </Link>
               </li>
               <li>
                 <Link
-                  to="/recruitment"
+                  to="/zepTalentHub"
                   className="hover:underline text-white"
-                  style={{ textDecoration: "none" }}
+                  style={{
+                    color: "#024bff",
+                    fontFamily: '"DM Sans", sans-serif',
+                    fontWeight: 500,
+                    fontSize: "16px",
+                    lineHeight: 1,
+                    letterSpacing: "-0.05em",
+                    margin: 0,
+                    padding: 0,
+                    display: "block",
+                    textDecoration: "none", // <-- this removes underline
+                  }}
                 >
-                  Recruitment Partners
+                  Zep Talent Hub
                 </Link>
               </li>
               <li>
                 <Link
-                  to="/jobseeker"
+                  to="https://careers.zepul.com/"
                   className="hover:underline text-white"
-                  style={{ textDecoration: "none" }}
+                  style={{
+                    color: "#024bff",
+                    fontFamily: '"DM Sans", sans-serif',
+                    fontWeight: 500,
+                    fontSize: "16px",
+                    lineHeight: 1,
+                    letterSpacing: "-0.05em",
+                    margin: 0,
+                    padding: 0,
+                    display: "block",
+                    textDecoration: "none", // <-- this removes underline
+                  }}
                 >
-                  Job Seekers
+                  Zep Jobs
                 </Link>
               </li>
             </ul>
