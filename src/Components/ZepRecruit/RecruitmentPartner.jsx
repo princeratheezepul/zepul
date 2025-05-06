@@ -46,7 +46,7 @@ const RecruitmentPartner = () => {
         </div>
 
         {/* Stats section */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-4 mb-4 mt-12 md:mb-36">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-4 mb-4 mt-12 md:mb-36 sm:ml-0 ml-8">
           {/* 80% Stat */}
           <div>
             <div

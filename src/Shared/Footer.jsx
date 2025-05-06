@@ -20,21 +20,39 @@ const Footer = () => {
             Zepul™ is committed to removing inefficiencies from the recruitment
             process while maximizing the value of human expertise.
           </p>
-          <div className="flex flex-row gap-8 my-4 ">
-            {" "}
-            <img src="/assets/SI.jpeg" alt="" className="w-[6rem]" />
-            <img src="/assets/CN.jpeg" alt="" className="w-[6rem]" />
-          </div>
-          <div className="overflow-x-auto max-w-full">
-            <p className="opacity-50 m-0 leading-snug w-full lg:max-w-none whitespace-normal lg:whitespace-nowrap">
-              MSME UDYAAN REGISTERED COMPANY - UDYAM-TS-02-0210277
-            </p>
-          </div>
+          <div className="w-full flex  my-4">
+            <div className="flex flex-row sm:gap-6  text-sm opacity-50 leading-normal  ">
+              {/* DPIIT */}
+              <div className="flex flex-col items-start w-[12rem]">
+                <img
+                  src="/assets/CN2.png"
+                  alt="DPIIT Logo"
+                  className="sm:w-[8rem] w-[5rem] h-auto object-contain"
+                />
+                <span className="mt-1 text-[0.6rem] md:text-[0.8rem]">
+                  Recognized Startup
+                  <br />
+                  Certificated # DIPP123320
+                </span>
+              </div>
 
-          <p className="opacity-50 leading-none">GSTIN - 36AACCZ0062E1ZM</p>
+              {/* MSME */}
+              <div className="flex flex-col items-start w-[12rem]">
+                <img
+                  src="/assets/S12.png"
+                  alt="MSME Logo"
+                  className="sm:w-[8rem] w-[5rem] h-auto object-contain"
+                />
+                <span className="mt-1 text-[0.6rem] md:text-[0.8rem]">
+                  Recognized Company Cert.
+                  <br /># UDYAM-TS-02-0210277
+                </span>
+              </div>
+            </div>
+          </div>
         </div>
 
-        <div className="flex flex-col sm:flex-row gap-10 md:w-1/2 ml-10">
+        <div className="flex flex-row gap-10 md:w-1/2 md:mx-auto lg:mx-0 ">
           <div>
             <h5 className="uppercase opacity-50 mb-3 ml-8">Company</h5>
             <ul className="space-y-2">

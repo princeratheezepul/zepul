@@ -32,7 +32,7 @@ const TalentHubHeader = () => {
             </span>
           </h1>
         </div>
-{/* 
+
         <div className="max-w-md mt-4 md:mt-0">
           <p
             className=" text-[#024bff]"
@@ -44,11 +44,12 @@ const TalentHubHeader = () => {
               letterSpacing: "-0.05em",
             }}
           >
-            Transforming Recruiters! De-risk your hiring decisions with
-            pre-vetted talent data at competitive prices and the lowest
-            turnaround time to Pro Recruiters
+            De-risk your hiring with Zep Talent Hub – get access to pre-vetted,
+            performance-ready talent at competitive rates and rapid turnaround.
+            Unlike traditional job portals, we deliver reliable, AI/data-backed
+            candidate profiles you can trust.
           </p>
-        </div> */}
+        </div>
       </div>
     </header>
   );
