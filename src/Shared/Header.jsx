@@ -171,22 +171,22 @@ const Header = () => {
                 </button>
                 <ul className=" dropdown-menu ">
                   <li className="nav-item">
-                    <Link to="/companies" className="nav-link dropdown-item">
+                    <Link to="/ZepRecruit" className="nav-link dropdown-item">
                       Zep Recruit
                     </Link>
                   </li>
                   <li className="nav-item">
-                    <Link to="/companies" className="nav-link dropdown-item">
+                    <Link to="/zepTalentHub" className="nav-link dropdown-item">
                       Zep Talenthub
                     </Link>
                   </li>
                   <li className="nav-item">
-                    <Link to="/recruitment" className="nav-link dropdown-item">
+                    <Link to="/prorecruitor" className="nav-link dropdown-item">
                       Zep Pro Recruiter
                     </Link>
                   </li>
                   <li className="nav-item">
-                    <Link to="/jobseeker" className="nav-link dropdown-item">
+                    <Link to="https://careers.zepul.com" className="nav-link dropdown-item">``
                       Zep Jobs
                     </Link>
                   </li>
