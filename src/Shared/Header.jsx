@@ -186,7 +186,7 @@ const Header = () => {
                     </Link>
                   </li>
                   <li className="nav-item">
-                    <Link to="https://careers.zepul.com" className="nav-link dropdown-item">``
+                    <Link to="https://careers.zepul.com" className="nav-link dropdown-item">
                       Zep Jobs
                     </Link>
                   </li>
