@@ -28,7 +28,7 @@ const Footer = () => {
                 alt="DPIIT Logo"
                 className="sm:w-[8rem] w-[5rem] h-auto object-contain"
               />
-              <div className="sm:flex absolute left-[40%] ">
+              <div className="lg:flex md:absolute  absolute left-[40%] md:left-[19vw] md:w-[13rem]  lg:left-[14vw] xl:left-[12vw] 2xl:left-[10vw] md:mb-[2rem]">
                 <span
                   className=" text-[#6E6E6E] leading-snug block"
                   style={{
@@ -45,7 +45,7 @@ const Footer = () => {
             <div className="flex sm:gap-[2.4rem] gap-[0.4rem]">
               <div className="sm:w-[15rem] w-[10rem]">
                 <h1
-                  className="font-extrabold tracking-wide uppercase text-[0.25rem] sm:text-[1.2rem] leading-tight sm:pt-0 pt-2 "
+                  className="font-extrabold tracking-wide uppercase text-[0.25rem] sm:text-[1.2rem] leading-tight pt-[0.2rem]  "
                   style={{
                     fontFamily: '"DM Sans", sans-serif',
                     fontWeight: 900,
@@ -57,9 +57,9 @@ const Footer = () => {
                   MSME / UDYAM
                 </h1>
               </div>
-              <div className="sm:flex absolute left-[40%]">
+              <div className=" sm:pt-0 lg:flex absolute left-[40%] lg:left-[14vw] md:left-[19vw] md:w-[13rem] xl:left-[12vw] 2xl:left-[10vw]">
                 <span
-                  className=" text-[#6E6E6E] leading-snug block sm:pt-0 pt-2 "
+                  className=" text-[#6E6E6E] leading-snug block sm:pt-0 "
                   style={{
                     fontFamily: '"DM Sans", sans-serif',
                     fontSize: "0.75rem", // ~text-sm
@@ -71,115 +71,6 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          {/* <div className="w-full  flex md:gap-12 gap-8  my-4">
-            <div className="flex flex-col sm:gap-4 gap-8 sm:pt-0 pt-3">
-              <div>
-                <img
-                  src="/assets/DPIIT.png"
-                  alt="DPIIT Logo"
-                  className="sm:w-[8rem] w-[5rem] h-auto object-contain"
-                />
-              </div>
-              <div>
-                <h1
-                  className="font-extrabold tracking-wide uppercase text-[0.25rem] sm:text-[1.2rem] leading-tight sm:pt-0 pt-2 "
-                  style={{
-                    fontFamily: '"DM Sans", sans-serif',
-                    fontWeight: 900,
-                    fontSize: "18px",
-                    lineHeight: "100%",
-                    letterSpacing: "0%",
-                  }}
-                >
-                  MSME / UDYAM
-                </h1>
-              </div>
-            </div>
-            <div className="flex flex-col gap-8 sm:pt-4">
-              <div>
-                <span
-                  className="mt-1 text-[#6E6E6E] leading-snug block"
-                  style={{
-                    fontFamily: '"DM Sans", sans-serif',
-                    fontSize: "0.75rem", // ~text-sm
-                  }}
-                >
-                  Recognized Startup
-                  <br />
-                  Certificate # DIPP123320
-                </span>
-              </div>
-              <div>
-                <span
-                  className="mt-1 text-[#6E6E6E] leading-snug block sm:pt-0 pt-2 "
-                  style={{
-                    fontFamily: '"DM Sans", sans-serif',
-                    fontSize: "0.75rem", // ~text-sm
-                  }}
-                >
-                  Recognized Company Certificate
-                  <br /># UDYAM-TS-02-0210277
-                </span>
-              </div>
-            </div>
-          </div> */}
-          {/* <div className="w-full flex my-4">
-            <div className="flex flex-col sm:gap-6 text-sm leading-normal w-full">
-              DPIIT
-              <div className="flex flex-col sm:flex-row items-start gap-2 sm:gap-4 w-full">
-                <div className="flex-shrink-0 sm:w-auto w-full flex justify-start sm:justify-start">
-                  <img
-                    src="/assets/DPIIT.png"
-                    alt="DPIIT Logo"
-                    className="sm:w-[8rem] w-[5rem] h-auto object-contain"
-                  />
-                </div>
-                <div className="w-full">
-                  <span
-                    className="mt-1 text-[#6E6E6E] leading-snug block"
-                    style={{
-                      fontFamily: '"DM Sans", sans-serif',
-                      fontSize: "0.75rem", // ~text-sm
-                    }}
-                  >
-                    Recognized Startup
-                    <br />
-                    Certificate # DIPP123320
-                  </span>
-                </div>
-              </div>
-
-              MSME / UDYAM
-              <div className="flex flex-col sm:flex-row items-start gap-2 sm:gap-4 w-full mt-4 sm:mt-0">
-                <div className="flex-shrink-0 sm:w-auto w-full my-auto">
-                  <h1
-                    className="font-extrabold tracking-wide uppercase text-[0.25rem] sm:text-[1.2rem] leading-tight"
-                    style={{
-                      fontFamily: '"DM Sans", sans-serif',
-                      fontWeight: 900,
-                      fontSize: "18px",
-                      lineHeight: "100%",
-                      letterSpacing: "0%",
-                    }}
-                  >
-                    MSME / UDYAM
-                  </h1>
-                </div>
-                <div className="w-full">
-                  <span
-                    className="mt-1 text-[#6E6E6E] leading-snug block"
-                    style={{
-                      fontFamily: '"DM Sans", sans-serif',
-                      fontSize: "0.75rem", // ~text-sm
-                    }}
-                  >
-                    Recognized Company Certificate
-                    <br /># UDYAM-TS-02-0210277
-                  </span>
-                </div>
-              </div>
-            </div>
-          </div> */}
         </div>
 
         <div className="flex flex-row gap-10 md:w-1/2 md:mx-auto lg:mx-0 ">
@@ -310,6 +201,26 @@ const Footer = () => {
                   }}
                 >
                   Zep Talent Hub
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/prorecruitor"
+                  className="hover:underline text-white"
+                  style={{
+                    color: "#024bff",
+                    fontFamily: '"DM Sans", sans-serif',
+                    fontWeight: 500,
+                    fontSize: "16px",
+                    lineHeight: 1,
+                    letterSpacing: "-0.05em",
+                    margin: 0,
+                    padding: 0,
+                    display: "block",
+                    textDecoration: "none", // <-- this removes underline
+                  }}
+                >
+                  Zep Pro Recruiter
                 </Link>
               </li>
               <li>
