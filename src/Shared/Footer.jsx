@@ -248,7 +248,7 @@ const Footer = () => {
         </div>
 
         <div className="md:w-1/3">
-          <div className="flex gap-4 mb-4 ml-10">
+          <div className="flex gap-4 mb-4">
             <a
               href="https://www.facebook.com/tryzepul?mibextid=ZbWKwL"
               target="_blank"
@@ -271,28 +271,46 @@ const Footer = () => {
               <FaTwitter size={20} color="white" />
             </a>
           </div>
-          <ul className="space-y-3 opacity-50">
-            <li className="flex items-start gap-2">
-              <FaHome className="mt-1" />
-              <span>
-                Floor 1 & 3, Plot No. 5–9/64
-                <br />
-                Road No. 6, Alkapuri Township
-                <br />
-                Manikonda, Hyderabad – 500089
-                <br />
-                Telangana, India
-              </span>
-            </li>
-            <li className="flex items-center gap-2">
-              <FaPhoneVolume />
-              <span>+91-77939 55555</span>
-            </li>
-            <li className="flex items-center gap-2">
-              <MdAlternateEmail />
-              <span>support@zepul.com</span>
-            </li>
-          </ul>
+          
+          {/* Addresses in horizontal flex row */}
+          <div className="flex flex-col md:flex-row gap-4 mb-4 opacity-50">
+            <div className="flex flex-col md:w-1/2">
+              <div className="flex items-start gap-2">
+                <FaHome className="mt-1 flex-shrink-0" />
+                <span>
+                  Product HQ
+                  <br />
+                  56 Weighton Road, Harrow,
+                  <br />
+                  London, United Kingdom
+                </span>
+              </div>
+              <div className="flex items-center mt-2">
+                <MdAlternateEmail className="mr-2" />
+                <span>info@zepul.com</span>
+              </div>
+            </div>
+            <div className="flex flex-col md:w-1/2">
+              <div className="flex items-start gap-2">
+                <FaHome className="mt-1 flex-shrink-0" />
+                <span>
+                  Services HQ
+                  <br />
+                  Floor 6, 610/B Sandhya Techno 1,
+                  <br />
+                  Khajaguda, Hyderabad, India
+                </span>
+              </div>
+              <div className="flex items-center mt-2">
+                <MdAlternateEmail className="mr-2" />
+                <span>support@zepul.com</span>
+              </div>
+              <div className="flex items-center mt-2">
+                <FaPhoneVolume className="mr-2" />
+                <span>+91-77939 55555</span>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
